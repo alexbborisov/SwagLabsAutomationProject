@@ -1,0 +1,33 @@
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Playwright browsers and cache
+.playwright/
+playwright/.local-browsers/
+
+# Test results
+TestResults/
+*.trx
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
