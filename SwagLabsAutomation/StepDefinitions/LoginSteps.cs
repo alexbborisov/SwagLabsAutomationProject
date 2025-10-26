@@ -67,4 +67,10 @@ public class LoginSteps
     {
         await _loginPage.IsErrorVisible();
     }
+
+    [Given("the user is logged in as {string}")]
+    public async Task GivenTheUserIsLoggedIn(string username)
+    {
+        await _loginPage.LoggedInUser(username, "secret_sauce");
+    }
 }

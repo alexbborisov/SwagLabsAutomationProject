@@ -11,7 +11,7 @@ So that I can access the product catalog
         And user clicks on Login button
         Then user is redirected to products page
         And the products page title should be visible
-    @login @negative @smoke
+    @login @negative 
     Scenario: Login as a locked user
         Given the user is on the login page
         When user enters username "locked_out_user"

@@ -11,7 +11,7 @@
 #region Designer generated code
 #pragma warning disable
 using Reqnroll;
-namespace SwagLabsAutomation.Features
+namespace SwagLabsAutomation.Features.Login
 {
     
     
@@ -27,7 +27,7 @@ namespace SwagLabsAutomation.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "Swag Labs Login form feature", "As a user\r\nI want to log into Swag Labs\r\nSo that I can access the product catalog" +
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features/Login", "Swag Labs Login form feature", "As a user\r\nI want to log into Swag Labs\r\nSo that I can access the product catalog" +
                 "", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
         
 #line 1 "Login.feature"
@@ -106,7 +106,7 @@ namespace SwagLabsAutomation.Features
         
         private static global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages InitializeCucumberMessages()
         {
-            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/Login.feature.ndjson", 4);
+            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/Login/Login.feature.ndjson", 4);
         }
         
         [global::NUnit.Framework.TestAttribute()]
@@ -159,13 +159,11 @@ namespace SwagLabsAutomation.Features
         [global::NUnit.Framework.DescriptionAttribute("Login as a locked user")]
         [global::NUnit.Framework.CategoryAttribute("login")]
         [global::NUnit.Framework.CategoryAttribute("negative")]
-        [global::NUnit.Framework.CategoryAttribute("smoke")]
         public async global::System.Threading.Tasks.Task LoginAsALockedUser()
         {
             string[] tagsOfScenario = new string[] {
                     "login",
-                    "negative",
-                    "smoke"};
+                    "negative"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             string pickleIndex = "1";
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Login as a locked user", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);

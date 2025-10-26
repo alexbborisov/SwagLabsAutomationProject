@@ -52,5 +52,16 @@ public class LoginPage
     {
         await Assertions.Expect(ErrorMessage).ToContainTextAsync("Epic sadface: Sorry, this user has been locked out.");
     }
+    
+    //Used in products page as already logged 
+    public async Task LoggedInUser(string username, string password)
+    {
+        await NavigateToLoginPage();
+        await EnterUsername(username);
+        await EnterPassword(password);
+        await ClickLoginButton();
+    }
+    
+    
 }
 
