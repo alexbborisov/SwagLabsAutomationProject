@@ -19,12 +19,6 @@ public class ShoppingSteps
         _productsPage = new ProductsPage(_browserContext.Page!);
     }
     
-    [Given("the user is on product catalog page")]
-    public async Task GivenTheUserIsOnProductCatalogPage()
-    {
-        await _loginpage.IsOnProductPage();
-    }
-    
     [When("the user adds {string} to cart")]
     public async Task WhenTheUserAddsToCart(string productName)
     {
