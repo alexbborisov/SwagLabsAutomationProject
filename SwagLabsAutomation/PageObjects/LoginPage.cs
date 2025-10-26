@@ -11,7 +11,7 @@ public class LoginPage
     private ILocator LoginButton => _page.Locator("#login-button");
     private ILocator ProductsTitle => _page.Locator("div.product_label");
 
-    private ILocator ErrorMessage => _page.Locator("button[class='error-button']");
+    private ILocator ErrorMessage => _page.Locator("h3[data-test='error']");
 
     public LoginPage(IPage page)
     {
@@ -48,9 +48,9 @@ public class LoginPage
         await Assertions.Expect(_page).ToHaveURLAsync("https://www.saucedemo.com/v1/index.html");
     }
 
-    public async Task IsErrorMessageDisplayed()
+    public async Task IsErrorVisible()
     {
-        await Assertions.Expect(ErrorMessage).ToBeVisibleAsync();
+        await Assertions.Expect(ErrorMessage).ToContainTextAsync("Epic sadface: Sorry, this user has been locked out.");
     }
 }
 

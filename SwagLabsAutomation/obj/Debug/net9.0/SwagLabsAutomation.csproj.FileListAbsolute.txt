@@ -451,3 +451,4 @@ D:\C#\SwagLabs\SwagLabsAutomation\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatfor
 D:\C#\SwagLabs\SwagLabsAutomation\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\C#\SwagLabs\SwagLabsAutomation\obj\Debug\net9.0\SwagLabs.47003096.Up2Date
 D:\C#\SwagLabs\SwagLabsAutomation\obj\Debug\net9.0\SwagLabsAutomation.genruntimeconfig.cache
+D:\C#\SwagLabs\SwagLabsAutomation\obj\Debug\net9.0\SwagLabsAutomation.sourcelink.json

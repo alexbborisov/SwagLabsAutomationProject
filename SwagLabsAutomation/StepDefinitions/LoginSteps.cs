@@ -65,6 +65,6 @@ public class LoginSteps
     [Then("an error message is displayed")]
     public async Task ThenAnErrorMessageIsDisplayed()
     {
-        await _loginPage.IsErrorMessageDisplayed();
+        await _loginPage.IsErrorVisible();
     }
 }

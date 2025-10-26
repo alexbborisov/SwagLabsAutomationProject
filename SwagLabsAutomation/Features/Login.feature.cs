@@ -157,9 +157,15 @@ namespace SwagLabsAutomation.Features
         
         [global::NUnit.Framework.TestAttribute()]
         [global::NUnit.Framework.DescriptionAttribute("Login as a locked user")]
+        [global::NUnit.Framework.CategoryAttribute("login")]
+        [global::NUnit.Framework.CategoryAttribute("negative")]
+        [global::NUnit.Framework.CategoryAttribute("smoke")]
         public async global::System.Threading.Tasks.Task LoginAsALockedUser()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "login",
+                    "negative",
+                    "smoke"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             string pickleIndex = "1";
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Login as a locked user", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
