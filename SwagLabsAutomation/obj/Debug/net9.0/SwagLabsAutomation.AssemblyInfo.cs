@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwagLabsAutomation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e9bb6d09fcab1a9e3babf36b2a610faf37c1de0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ae52148a1a338acc12f38122406247a61a38fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwagLabsAutomation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwagLabsAutomation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

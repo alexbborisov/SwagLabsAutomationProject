@@ -134,18 +134,15 @@ namespace SwagLabsAutomation.Features.Products
             {
                 await this.ScenarioStartAsync();
 #line 8
-       await testRunner.GivenAsync("the user is logged in as \"standard_use\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+       await testRunner.GivenAsync("the user is logged in as \"standard_user\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
 #line 9
-       await testRunner.AndAsync("the user is on product catalog page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
-#line hidden
-#line 10
        await testRunner.WhenAsync("the user adds \"Sauce Labs Backpack\" to cart", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 11
+#line 10
        await testRunner.ThenAsync("the cart badge shows \"1\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 12
+#line 11
        await testRunner.AndAsync("remove button is displayed for \"Sauce Labs Backpack\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }

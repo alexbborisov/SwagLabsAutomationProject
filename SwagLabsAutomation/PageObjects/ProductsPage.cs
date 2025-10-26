@@ -27,7 +27,6 @@ public class ProductsPage
 
     public async Task<string?> GetCartBadgeCount()
     {
-        await Assertions.Expect(CartBadge).ToHaveTextAsync("1");
         return await CartBadge.TextContentAsync();
     }
 
