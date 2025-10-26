@@ -1,0 +1,17 @@
+# --- Language detection configuration for GitHub ---
+
+# Treat this project primarily as C#
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
+
+# Mark .feature files as Gherkin
+*.feature linguist-detectable=true
+*.feature linguist-language=Gherkin
+
+# Ignore config and supporting script files for language stats
+*.js linguist-detectable=false
+*.ts linguist-detectable=false
+*.json linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+*.md linguist-detectable=false
