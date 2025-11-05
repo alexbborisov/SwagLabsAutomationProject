@@ -110,17 +110,17 @@ namespace SwagLabsAutomation.Features.Login
         }
         
         [global::NUnit.Framework.TestAttribute()]
-        [global::NUnit.Framework.DescriptionAttribute("Successful login")]
+        [global::NUnit.Framework.DescriptionAttribute("Successful login with valid credentials")]
         [global::NUnit.Framework.CategoryAttribute("login")]
         [global::NUnit.Framework.CategoryAttribute("smoke")]
-        public async global::System.Threading.Tasks.Task SuccessfulLogin()
+        public async global::System.Threading.Tasks.Task SuccessfulLoginWithValidCredentials()
         {
             string[] tagsOfScenario = new string[] {
                     "login",
                     "smoke"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             string pickleIndex = "0";
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Successful login", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Successful login with valid credentials", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
 #line 7
@@ -156,17 +156,17 @@ namespace SwagLabsAutomation.Features.Login
         }
         
         [global::NUnit.Framework.TestAttribute()]
-        [global::NUnit.Framework.DescriptionAttribute("Login as a locked user")]
+        [global::NUnit.Framework.DescriptionAttribute("Login attempt with locked out user")]
         [global::NUnit.Framework.CategoryAttribute("login")]
         [global::NUnit.Framework.CategoryAttribute("negative")]
-        public async global::System.Threading.Tasks.Task LoginAsALockedUser()
+        public async global::System.Threading.Tasks.Task LoginAttemptWithLockedOutUser()
         {
             string[] tagsOfScenario = new string[] {
                     "login",
                     "negative"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             string pickleIndex = "1";
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Login as a locked user", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Login attempt with locked out user", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
 #line 15

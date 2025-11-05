@@ -1,8 +1,7 @@
-﻿Feature: Products Page Functionality
-    As a user 
-    I want to browser the product catalog
-    So that I can add/remove a product to the cart and
-    check product prices
+﻿Feature: Shopping Cart functionality
+    As a user
+    I want to add/remove products from cart
+    So that I can buy a product from the website
     @smoke @product
    Scenario: Adding a product to card
        Given the user is logged in as "standard_user"

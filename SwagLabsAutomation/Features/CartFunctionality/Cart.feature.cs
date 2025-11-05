@@ -11,26 +11,26 @@
 #region Designer generated code
 #pragma warning disable
 using Reqnroll;
-namespace SwagLabsAutomation.Features.Products
+namespace SwagLabsAutomation.Features.CartFunctionality
 {
     
     
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Reqnroll", "3.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::NUnit.Framework.TestFixtureAttribute()]
-    [global::NUnit.Framework.DescriptionAttribute("Products Page Functionality")]
+    [global::NUnit.Framework.DescriptionAttribute("Shopping Cart functionality")]
     [global::NUnit.Framework.FixtureLifeCycleAttribute(global::NUnit.Framework.LifeCycle.InstancePerTestCase)]
-    public partial class ProductsPageFunctionalityFeature
+    public partial class ShoppingCartFunctionalityFeature
     {
         
         private global::Reqnroll.ITestRunner testRunner;
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features/Products", "Products Page Functionality", "    As a user \r\n    I want to browser the product catalog\r\n    So that I can add/" +
-                "remove a product to the cart and\r\n    check product prices", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features/CartFunctionality", "Shopping Cart functionality", "    As a user\r\n    I want to add/remove products from cart\r\n    So that I can buy" +
+                " a product from the website", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
         
-#line 1 "Products.feature"
+#line 1 "Cart.feature"
 #line hidden
         
         [global::NUnit.Framework.OneTimeSetUpAttribute()]
@@ -106,7 +106,7 @@ namespace SwagLabsAutomation.Features.Products
         
         private static global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages InitializeCucumberMessages()
         {
-            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/Products/Products.feature.ndjson", 3);
+            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Features/CartFunctionality/Cart.feature.ndjson", 3);
         }
         
         [global::NUnit.Framework.TestAttribute()]
@@ -123,7 +123,7 @@ namespace SwagLabsAutomation.Features.Products
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Adding a product to card", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
-#line 7
+#line 6
    this.ScenarioInitialize(scenarioInfo, ruleInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -133,16 +133,16 @@ namespace SwagLabsAutomation.Features.Products
             else
             {
                 await this.ScenarioStartAsync();
-#line 8
+#line 7
        await testRunner.GivenAsync("the user is logged in as \"standard_user\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 8
        await testRunner.WhenAsync("the user adds \"Sauce Labs Backpack\" to cart", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 9
        await testRunner.ThenAsync("the cart badge shows \"1\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 11
+#line 10
        await testRunner.AndAsync("remove button is displayed for \"Sauce Labs Backpack\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }
